@@ -9,8 +9,7 @@ export default function Home (){
       }
       const next = () =>{
         // next
-        navigate("/test");
-
+        window.location.href = "https://google.com"
       }
     return (
         <div>
